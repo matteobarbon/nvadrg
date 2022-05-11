@@ -41,7 +41,7 @@
 #     Example:  "0 */5 * * * *" to run on multiples of 5 minutes on the 0-second mark
 #
 #--------------------------------------------------------------------------
-
+param($Timer)
 Write-Output -InputObject "HA NVA timer trigger function executed at:$(Get-Date)"
 
 #--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ $VMFW2Name = $env:FW2NAME      # Set the Name of the secondary NVA firewall
 $FW1RGName = $env:FWRGNAME     # Set the ResourceGroup that contains FW1
 $FW2RGName = $env:FWRGNAME     # Set the ResourceGroup that contains FW2
 $Monitor = $env:FWMONITOR      # "VMStatus" or "TCPPort" are valid values
-param($Timer)
+
 #--------------------------------------------------------------------------
 # The parameters below are required if using "TCPPort" mode for monitoring
 #--------------------------------------------------------------------------
