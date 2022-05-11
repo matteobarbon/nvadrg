@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>AzureRM</id>
+    <version>6.13.2</version>
+    <authors>Microsoft Corporation</authors>
+    <owners>Microsoft Corporation</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://aka.ms/azps-license</licenseUrl>
+    <projectUrl>https://github.com/Azure/azure-powershell</projectUrl>
+    <description>Azure Resource Manager Module</description>
+    <releaseNotes>6.13.2 - March 2021
+Azure Resource Manager Module
+
+This module is outdated and will go out of support on 29 February 2024.
+        
+[The Az PowerShell Module](https://aka.ms/azpsmodule) provides the following improvements:
+* Greater security with token cache encryption and improved authentication.
+* Availability in Azure Cloud Shell and on Linux and macOS.
+* Support for all Azure services.
+* Allows use of Azure access tokens.
+
+We encourage you to start using the Az module as soon as possible to take advantage of these improvements.
+
+[Update your scripts](https://aka.ms/azpsmigrate) that use AzureRM PowerShell modules to use Az PowerShell modules by 29 February 2024. To automatically update your scripts, follow the [quickstart guide](https://aka.ms/azpsmigratequick).</releaseNotes>
+    <copyright>Microsoft Corporation. All rights reserved.</copyright>
+    <tags>PSModule</tags>
+    <dependencies>
+      <dependency id="AzureRM.Profile" version="[5.8.4]" />
+      <dependency id="Azure.Storage" version="[4.6.1]" />
+      <dependency id="AzureRM.AnalysisServices" version="[0.6.15]" />
+      <dependency id="Azure.AnalysisServices" version="[0.5.4]" />
+      <dependency id="AzureRM.ApiManagement" version="[6.1.8]" />
+      <dependency id="AzureRM.ApplicationInsights" version="[0.1.9]" />
+      <dependency id="AzureRM.Automation" version="[6.1.2]" />
+      <dependency id="AzureRM.Batch" version="[4.1.6]" />
+      <dependency id="AzureRM.Billing" version="[0.14.7]" />
+      <dependency id="AzureRM.Cdn" version="[5.0.7]" />
+      <dependency id="AzureRM.CognitiveServices" version="[0.9.13]" />
+      <dependency id="AzureRM.Compute" version="[5.9.2]" />
+      <dependency id="AzureRM.Consumption" version="[0.3.8]" />
+      <dependency id="AzureRM.ContainerInstance" version="[0.2.13]" />
+      <dependency id="AzureRM.ContainerRegistry" version="[1.0.11]" />
+      <dependency id="AzureRM.DataFactories" version="[5.0.4]" />
+      <dependency id="AzureRM.DataFactoryV2" version="[0.5.12]" />
+      <dependency id="AzureRM.DataLakeAnalytics" version="[5.1.5]" />
+      <dependency id="AzureRM.DataLakeStore" version="[6.2.2]" />
+      <dependency id="AzureRM.DevTestLabs" version="[4.0.10]" />
+      <dependency id="AzureRM.Dns" version="[5.1.1]" />
+      <dependency id="AzureRM.EventGrid" version="[0.3.8]" />
+      <dependency id="AzureRM.EventHub" version="[0.7.1]" />
+      <dependency id="AzureRM.HDInsight" version="[4.1.9]" />
+      <dependency id="AzureRM.Insights" version="[5.1.6]" />
+      <dependency id="AzureRM.IotHub" version="[3.1.9]" />
+      <dependency id="AzureRM.KeyVault" version="[5.2.2]" />
+      <dependency id="AzureRM.LogicApp" version="[4.1.5]" />
+      <dependency id="AzureRM.MachineLearning" version="[0.18.6]" />
+      <dependency id="AzureRM.MarketplaceOrdering" version="[0.2.8]" />
+      <dependency id="AzureRM.Media" version="[0.10.5]" />
+      <dependency id="AzureRM.Network" version="[6.11.2]" />
+      <dependency id="AzureRM.NotificationHubs" version="[5.0.4]" />
+      <dependency id="AzureRM.OperationalInsights" version="[5.0.7]" />
+      <dependency id="AzureRM.PolicyInsights" version="[1.1.1]" />
+      <dependency id="AzureRM.PowerBIEmbedded" version="[4.1.11]" />
+      <dependency id="AzureRM.RecoveryServices" version="[4.1.10]" />
+      <dependency id="AzureRM.RecoveryServices.Backup" version="[4.5.3]" />
+      <dependency id="AzureRM.RecoveryServices.SiteRecovery" version="[0.2.13]" />
+      <dependency id="AzureRM.RedisCache" version="[5.1.1]" />
+      <dependency id="AzureRM.Relay" version="[0.3.13]" />
+      <dependency id="AzureRM.Resources" version="[6.7.4]" />
+      <dependency id="AzureRM.ServiceBus" version="[0.6.14]" />
+      <dependency id="AzureRM.ServiceFabric" version="[0.3.16]" />
+      <dependency id="AzureRM.SignalR" version="[1.0.1]" />
+      <dependency id="AzureRM.Sql" version="[4.12.2]" />
+      <dependency id="AzureRM.Storage" version="[5.2.1]" />
+      <dependency id="AzureRM.StreamAnalytics" version="[4.0.11]" />
+      <dependency id="AzureRM.Tags" version="[4.0.6]" />
+      <dependency id="AzureRM.TrafficManager" version="[4.1.4]" />
+      <dependency id="AzureRM.UsageAggregates" version="[4.0.6]" />
+      <dependency id="AzureRM.Websites" version="[5.2.1]" />
+    </dependencies>
+  </metadata>
+</package>
