@@ -42,7 +42,7 @@
 #
 #--------------------------------------------------------------------------
 param($Timer)
-import-module ‘D:\Home\site\wwwroot\nvadrg\Modules\azurerm.6.13.2\AzureRM.psm1’
+Import-Module -Name AzureRM -UseWindowsPowerShell
 
 Write-Output -InputObject "HA NVA timer trigger function executed at:$(Get-Date)"
 
